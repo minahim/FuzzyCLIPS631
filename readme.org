@@ -1,0 +1,6 @@
+NEUROCLIPS
+
+* The ideia is to have ANN capabilities into FuzzyCLIPS.
+      * Try to maintain original CLIPS criteria for code (insert reference).
+
+
