@@ -1,0 +1,12 @@
+#ifndef LIBNCLIPS_GLOBAL_H
+#define LIBNCLIPS_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(LIBNCLIPS_LIBRARY)
+#  define LIBNCLIPSSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define LIBNCLIPSSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // LIBNCLIPS_GLOBAL_H
